@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional -->
+</head>
+<body>
+    <h1>GPA Calculator</h1>
+    <div>
+        <label>Class 1 Grade: </label>
+        <input type="number" id="grade1" min="0" max="4" step="0.01">
+    </div>
+    <div>
+        <label>Class 2 Grade: </label>
+        <input type="number" id="grade2" min="0" max="4" step="0.01">
+    </div>
+    <div>
+        <label>Class 3 Grade: </label>
+        <input type="number" id="grade3" min="0" max="4" step="0.01">
+    </div>
+    <div>
+        <label>Class 4 Grade: </label>
+        <input type="number" id="grade4" min="0" max="4" step="0.01">
+    </div>
+    <button onclick="calculateGPA()">Calculate GPA</button>
+    <h2>Your GPA is: <span id="gpaResult"></span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
